@@ -10,7 +10,20 @@
   },
   "author": "",
   "license": "ISC",
-    "devDependencies": {
-    "lite-server": "^2.3.0"
-  }
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.12.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lkhamitkar/BootS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lkhamitkar/BootS/issues"
+  },
+  "homepage": "https://github.com/lkhamitkar/BootS#readme"
 }
