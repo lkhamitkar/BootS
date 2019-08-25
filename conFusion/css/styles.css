@@ -14,10 +14,15 @@
     border-bottom: 1px ridge;
     min-height:400px;
 }
+.body{
+    padding:50px 0px 0px 0px;
+    z-index: 0;
+}
+
 .jumbotron{
     padding:70px 30px 70px 30px;
     margin:0px auto;
-    background: #9575cd;
+    background: #7b59b4;
     color: floralwhite;
 }
 .address{
