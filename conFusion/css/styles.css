@@ -31,6 +31,7 @@ body {
 .navbar-dark {
   background-color: #512DA8; }
 
+
 .tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
@@ -52,3 +53,15 @@ body {
   position: absolute;
   bottom: 0px;
   z-index: 1; }
+
+.modal-header{
+  background: #512DA8;}
+  .modal-body{
+    background: #ddd;}
+    .modal-title{
+      color: floralwhite;}
+
+      .close {
+        color: floralwhite; 
+        opacity: 1;
+        }

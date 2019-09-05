@@ -31,9 +31,10 @@
                         <li class="nav-item"><a class="nav-link" href="./contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
                     </ul>
                     <span class="navbar-text">
-                        <a data-toggle="modal" data-target="#loginModal">
+                        <a id="myloginBtn">
                             <span class="fa fa-sign-in"></span> Login
                         </a>
+                        <!--<a class="fa fa-sign-in" id="myloginBtn">Login</a>-->
                     </span>
                 </div>
         </div>
@@ -94,7 +95,7 @@
                 </div>
                 <div class="modal-body">
                     <!--remove card-->
-                    <form class="col-xs-12 col-md-10 offset-2 mb-4 align-self-center" id="reserve" >
+                    <form class="col-xs-12 col-md-10 offset-2 mb-4 align-self-center" id="reserveModal" >
                         <dl class="form-group row">
                             
                             <label for="Number" class="col-xs-12 col-md-2 col-form-label"><strong>Number of Guests</strong></label>
@@ -192,8 +193,8 @@
                 </div>
                 <div class="col-xs-12 col-sm-2 mt-1 align-self-center">
                         
-                        <a role="button" class="btn btn-block nav-link btn-warning" data-toggle="modal"
-                         href="#reserveModal">Reserve Table</a>
+                        <a role="button" class="btn btn-block nav-link btn-warning" id="myreserveBtn1"
+                         >Reserve Table</a>
                     
                         
                     
@@ -394,6 +395,25 @@
         }
     });
     </script>
+    <!--login-->
+
+    <script>
+        $(document).ready(function(){
+        $("#myloginBtn").click(function(){
+            $("#loginModal").modal('toggle');
+        });
+        });
+    </script>
+
+        <!--reserve-->
+
+        <script>
+            $(document).ready(function(){
+            $("#myreserveBtn1").click(function(){
+                $("#reserveModal").modal('toggle');
+            });
+            });
+        </script>
 </body>
 
 </html>
